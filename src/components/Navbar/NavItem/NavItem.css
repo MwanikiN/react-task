@@ -1,0 +1,16 @@
+.nav-item{
+    color: lightgray;
+    border-radius: 0.2rem;
+}
+
+
+.nav-item:hover{
+    color: white;
+    background-color: gray;
+}
+
+.nav-item a{
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    color: inherit;
+}

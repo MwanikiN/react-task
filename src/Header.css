@@ -1,0 +1,41 @@
+.np-header{
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.np-child{
+    height: 600px;
+    width: 700px;
+    background: white;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro{
+    display: flex;
+}
+
+.intro img, .txt{
+    width: 50%;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+}
