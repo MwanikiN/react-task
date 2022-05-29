@@ -1,9 +1,16 @@
 .np-bio{
+    margin: 1em;
     text-align: center;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
-.about-bio{
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 1.5em;
+}
+.bio-about{
+    margin: 0 auto;
     font-weight: bold;
     color: black;
     font-size: larger;

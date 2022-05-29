@@ -1,6 +1,7 @@
 import Header from './Header'
 import Bio from './Bio'
 import Navbar from './components/Navbar/Navbar';
+import Contact from './Contact';
 
 function App () {
   return (
@@ -8,6 +9,7 @@ function App () {
       <Navbar/>
       <Header/>
       <Bio/>
+      <Contact/>
     </div>
   )
 }

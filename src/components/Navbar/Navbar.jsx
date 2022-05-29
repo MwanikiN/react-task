@@ -8,6 +8,7 @@ function Navbar(){
         <div className="nav-logo">
             <img src={me} alt="Me" />
         </div>
+        <h3 className="title"> WwaMwaniki</h3>
         <NavLinks />
     </nav>)
 }

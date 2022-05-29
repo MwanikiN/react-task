@@ -1,13 +1,4 @@
-.np-header{
-    text-align: center;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .np-child{
     height: 600px;
     width: 700px;
@@ -27,10 +18,12 @@
 }
 
 .intro img, .txt{
-    width: 50%;
+    width: 40%;
 }
 
 .txt{
+    /* height: 700px;
+    width: 700px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,4 +31,14 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     font-weight: bold;
+    /* background-image: url("assets/pic.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply; */
+    color: black;
+}
+.me{
+    float: left;
+    margin: 15px;
+    border-radius: 50%;
 }

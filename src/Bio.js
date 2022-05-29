@@ -2,17 +2,19 @@ import './Bio.css'
 
 function Bio () {
     return(
-        <div className="np-bio">
+        <div className="np-bio container">
             <section>
                 <div>
                 <h3 className='bio-about'><big>About</big></h3>    
-                <p>
-                    I am a machine learning engineer skilled in data analysis and manipulation using SQL and python.
-                    My first role in machine learning entailed research, modelling and improvement of a demand forecast module.
-                    The role expanded my grasp and reach in the subject matter.
-                    Since, I have continuously improved my skills and knowledge through
-                    continuous learning and taking on several other projects.
-                </p>
+                <div className='text-wrapper'>
+                    <p className='bio-wrapper'>
+                        I am a machine learning engineer skilled in data analysis and manipulation using SQL and python.
+                        My first role in machine learning entailed research, modelling and improvement of a demand forecast module.
+                        The role expanded my grasp and reach in the subject matter.
+                        Since, I have continuously improved my skills and knowledge through
+                        continuous learning and taking on several other projects.
+                    </p>
+                </div>
                 </div>
             </section>
             <section>
@@ -25,7 +27,7 @@ function Bio () {
             <section>
                 <div className='np-outline'>
                     <h4>Machine Learning</h4>
-                    <p>I am intrigued by the power of machine learning and 
+                    <p className='exp-1'>I am intrigued by the power of machine learning and 
                         its utilization in our day to day lives to improve and better the 
                         ancient technological methods of explicily writing  codes.</p>
                     <h4>Data Science</h4>
