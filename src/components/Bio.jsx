@@ -1,4 +1,5 @@
-import './Bio.css'
+import '..//styles/Bio.css'
+
 
 function Bio () {
     return(
@@ -7,7 +8,7 @@ function Bio () {
                 <div>
                 <h3 className='bio-about'><big>About</big></h3>    
                 <div className='text-wrapper'>
-                    <p className='bio-wrapper'>
+                    <p>
                         I am a machine learning engineer skilled in data analysis and manipulation using SQL and python.
                         My first role in machine learning entailed research, modelling and improvement of a demand forecast module.
                         The role expanded my grasp and reach in the subject matter.
@@ -27,7 +28,7 @@ function Bio () {
             <section>
                 <div className='np-outline'>
                     <h4>Machine Learning</h4>
-                    <p className='exp-1'>I am intrigued by the power of machine learning and 
+                    <p className='exp'>I am intrigued by the power of machine learning and 
                         its utilization in our day to day lives to improve and better the 
                         ancient technological methods of explicily writing  codes.</p>
                     <h4>Data Science</h4>

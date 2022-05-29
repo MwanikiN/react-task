@@ -1,4 +1,4 @@
-import "./NavItem.css"
+import '../../../styles/NavItem.css'
 
 function NavItem({name, path}){
     return( 

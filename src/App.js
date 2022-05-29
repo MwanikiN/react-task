@@ -1,7 +1,7 @@
-import Header from './Header'
-import Bio from './Bio'
+import Header from './components/Header'
+import Bio from './components/Bio'
 import Navbar from './components/Navbar/Navbar';
-import Contact from './Contact';
+import Contact from './components/Contact';
 
 function App () {
   return (

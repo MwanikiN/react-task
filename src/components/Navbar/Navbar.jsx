@@ -1,6 +1,6 @@
 import NavLinks from "./NavLinks/NavLinks"
 import me from "../../assets/pic.jpg";
-import "./Navbar.css"
+import "../../styles/Navbar.css"
 
 function Navbar(){
     return (
@@ -8,7 +8,7 @@ function Navbar(){
         <div className="nav-logo">
             <img src={me} alt="Me" />
         </div>
-        <h3 className="title"> WwaMwaniki</h3>
+        <h3 className="title"> MimowaMwaniki</h3>
         <NavLinks />
     </nav>)
 }

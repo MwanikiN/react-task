@@ -3,8 +3,8 @@ import {AiFillPhone} from 'react-icons/ai'
 import {BsTwitter} from 'react-icons/bs'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillGithub} from 'react-icons/ai'
-// import me from './assets/pic.jpg'
-import './Contact.css'
+
+import '..//styles/Contact.css'
 
 function Contact(){
     return(
@@ -12,8 +12,7 @@ function Contact(){
             <nav>
                 <footer className='contact-nav'>
                    <div className='cont-container'>
-                    <h3 className='contact-header'><i>Contact</i></h3>
-                        {/* <img className="dp" src={me} alt = "me"/>     */}
+                    <h3 className='contact-header'><i>Contact</i></h3>    
                         <ul className='nav-links'>
                             <li><i className='email-icon'><AiOutlineMail/><i><a href='neemaclare@gmail.com'> neemaclare@gmail.com</a></i></i></li>
                             <li><i className='phone-icon'><AiFillPhone/><i> +254 718 586 160</i></i></li>

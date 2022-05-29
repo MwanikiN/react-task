@@ -1,6 +1,7 @@
 import { links } from "../../../constants/links";
 import NavItem from "../NavItem/NavItem";
-import "./NavLinks.css"
+import "../../../styles/NavLinks.css"
+
 
 function NavLinks(){
     return(
