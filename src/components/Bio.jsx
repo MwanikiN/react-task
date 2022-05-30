@@ -4,6 +4,7 @@ import '..//styles/Bio.css'
 function Bio () {
     return(
         <div className="np-bio container">
+            
             <section>
                 <div>
                 <h3 className='bio-about'><big>About</big></h3>    

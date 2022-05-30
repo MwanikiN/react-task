@@ -5,18 +5,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black
+    background-color: gray;
 }
 
-.nav-logo{
-    height: 100%;
-    width: 5rem;
-}
 
-.nav-logo img{
-    height: 100%;
-    width: auto;
-}
 .title{
     color: whitesmoke;
     font-style: normal;
